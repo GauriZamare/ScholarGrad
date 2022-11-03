@@ -16,16 +16,16 @@ const Header = () => {
               <NavLink to='/'>Home</NavLink>
             </li>
             <li>
-              <NavLink to='/courses'>All Courses</NavLink>
+              <NavLink to='/courses'>Scholarships</NavLink>
             </li>
             <li>
               <NavLink to='/about'>About</NavLink>
             </li>
             <li>
-              <NavLink to='/team'>Team</NavLink>
+              <NavLink to='/team'>Result</NavLink>
             </li>
             <li>
-              <NavLink to='/pricing'>Pricing</NavLink>
+              <NavLink to='/pricing'>FAQS</NavLink>
             </li>
             <li>
               <NavLink to='/journal'>Journal</NavLink>
@@ -35,7 +35,9 @@ const Header = () => {
             </li>
           </ul>
           <div className='start'>
-            <div className='button'>GET CERTIFICATE</div>
+            {/* <div className='button'>GET CERTIFICATE</div> */}
+            <img src="" alt=""/>
+            
           </div>
           <button className='toggle' onClick={() => setClick(!click)}>
             {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}
