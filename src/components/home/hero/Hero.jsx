@@ -12,10 +12,10 @@ const Hero = () => {
             <p>Gateway to scholarship world</p>
             <div className='button'>
               <button className='primary-btn'>
-                SIGN IN <i className='fa fa-long-arrow-alt-right'></i>
+              SIGN UP <i className='fa fa-long-arrow-alt-right'></i>
               </button>
               <button>
-                SIGN UP <i className='fa fa-long-arrow-alt-right'></i>
+              LOG IN <i className='fa fa-long-arrow-alt-right'></i>
               </button>
             </div>
           </div>
