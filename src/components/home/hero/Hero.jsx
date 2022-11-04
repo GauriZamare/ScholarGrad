@@ -1,4 +1,5 @@
 import React from "react"
+import { NavLink } from "react-router-dom"
 import Heading from "../../common/heading/Heading"
 import "./Hero.css"
 
@@ -11,12 +12,12 @@ const Hero = () => {
             <Heading subtitle='WELCOME TO SCHOLARGRAD' title='Best Scholarship Portal' />
             <p>Gateway to scholarship world</p>
             <div className='button'>
-              <button className='primary-btn'>
-              SIGN UP <i className='fa fa-long-arrow-alt-right'></i>
-              </button>
-              <button>
-              LOG IN <i className='fa fa-long-arrow-alt-right'></i>
-              </button>
+              
+              <NavLink to='/SignIn'><button className='primary-btn'>SIGN UP<i className='fa fa-long-arrow-alt-right'></i> 
+              </button></NavLink>
+             
+              <NavLink to='/SignIn'> <button>LOG IN <i className='fa fa-long-arrow-alt-right'></i> 
+              </button></NavLink>
             </div>
           </div>
         </div>

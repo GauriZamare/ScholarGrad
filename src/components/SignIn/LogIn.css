@@ -7,7 +7,7 @@ body{
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
 	background: white;
-	background:url("../images/bg.webp") no-repeat center/ cover;
+	/* background:url("./back.webp") no-repeat center/ cover; */
 }
 .main{
 	width: 350px;

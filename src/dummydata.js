@@ -316,17 +316,19 @@ export const faq = [
     desc: "Yes, only those candidates whose annual family income is less than or equal to Rs.4.5 lakh per annum are covered under ambit of the scheme.",
   },
   {
-    title: "Are the students who have enrolled through management quota be considered eligible for award of scholarship?",
-    desc: "No these categories of students will not be considered for award of scholarship.",
+    title: "Typically, what are the deadlines for scholarships?",
+    desc: "Prime months for scholarship deadlines are January through April for awards starting the following fall term. Keep in mind that many scholarships are only awarded once a year, so missing a deadline can mean missing out until the next cycle. Applications submitted past the deadline are usually not considered.",
   },
   {
     title: "Can the students apply anytime during the year of admission?",
     desc: "No. Students can only apply during a particular time period as displayed on the website",
   },
   {
-    title: "Typically, what are the deadlines for scholarships?",
-    desc: "Prime months for scholarship deadlines are January through April for awards starting the following fall term. Keep in mind that many scholarships are only awarded once a year, so missing a deadline can mean missing out until the next cycle. Applications submitted past the deadline are usually not considered.",
+    title: "Students who have enrolled through management are eligible for scholarship?",
+    desc: "No these categories of students will not be considered for award of scholarship.",
   },
+  
+  
   {
     title: "What is your contact number for general queries?",
     desc: "If you have any general query regarding the scholarships, you can email us at info@ScholarGrad.com. Also, you can submit your queries by visiting our contact us page.",
